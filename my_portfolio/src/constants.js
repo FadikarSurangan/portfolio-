@@ -141,7 +141,7 @@ export const experiences = [
       id: 3,
       img: brkmLogo,
       school: "Baranagore Ramakrishna Mission Ashrama",
-      date: "Apr 2015 - March 2016",
+      date: "Apr 2010 - March 2020",
       grade: "82.85%",
       desc: "I completed my class 10 education from Baranagore Ramakrishna Mission Ashrama High School, Kolkata, under the West Bengal Board of Secondary Education (WBBSE), where I studied Science.",
       degree: "Madhyamik - Secondary",
