@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/profile2.jpg';
 
 const About = () => {
   return (
@@ -18,32 +17,18 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Surangan Fadikar
           </h2>
-          {/* Skills Heading with Typing Effect */}
+          {/* Skills Heading (Static Text instead of typing effect) */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
-            <ReactTypingEffect
-              text={[
-                'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
-                'Coder',
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            />
+            <span className="text-[#8245ec]">Fullstack Developer</span>
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I am a full-stack developer with over 2 years of experience in
             building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
+            back-end development, I specialize in the React.Js and Node.Js and other
             modern technologies to create seamless user experiences and
             efficient solutions.
           </p>
@@ -60,7 +45,6 @@ const About = () => {
           >
             DOWNLOAD CV
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
